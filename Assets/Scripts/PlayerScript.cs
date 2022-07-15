@@ -25,7 +25,7 @@ public class PlayerScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         animator.SetFloat("Speed", Speed);
         animator.SetBool("IsOnGround", IsOnGround);
         animator.SetBool("IsDie", IsDie);
